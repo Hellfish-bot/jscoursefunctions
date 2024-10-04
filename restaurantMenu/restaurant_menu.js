@@ -1,10 +1,12 @@
 // DEFINING VARIABLES AND MAP ARRAY METHOD
 
 // Initialise three arrays named as breakfastMenu, mainCourseMenu, and dessertMenu:
+// Include prices for all the items in breakfastMenu, mainCourseMenu, and dessertMenu:
+// First declare the variable:
 
-const breakfastMenu = ['Pancakes', 'Eggs Benedict', 'Oatmeal', 'Frittata'];
-const mainCourseMenu = ['Steak', 'Pasta', 'Burger', 'Salmon'];
-const dessertMenu = ['Cake', 'Ice Cream', 'Pudding', 'Fruit Salad'];
+const breakfastMenu = ['Pancakes- $12', 'Eggs Benedict- $22.99', 'Oatmeal- $21.99', 'Frittata- $15'];
+const mainCourseMenu = ['Steak- $24.99', 'Pasta- $18', 'Burger- $17', 'Salmon- $21.99'];
+const dessertMenu = ['Cake- $8', 'Ice Cream- $6.99', 'Pudding- $6', 'Fruit Salad- $6.50'];
 
 // Use for loop and two array methods: map method and forEach method to traverse through these arrays and display the menu items on the HTML page.
 // Iterate through the breakfastMenu array using map method:
