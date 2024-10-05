@@ -52,3 +52,11 @@ function clearInputs() {
     document.getElementById('bookDescription').value = '';
     document.getElementById('pagesNumber').value = '';
 }
+
+// DEFINING FUNCTION TO DELETE BOOKS
+
+// Create a deletebook function to delete the book in the management system:
+
+function deletebook() {
+    const booksDiv = books.splice(index, 1);
+}
