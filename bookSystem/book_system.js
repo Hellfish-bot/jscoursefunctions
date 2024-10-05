@@ -58,5 +58,6 @@ function clearInputs() {
 // Create a deletebook function to delete the book in the management system:
 
 function deletebook() {
-    const booksDiv = books.splice(index, 1);
+    books.splice(0, 1);
+        console.log(showbooks());
 }
